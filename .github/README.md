@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-resiliencehub`](https://www.npmjs.com/package/@aws-sdk/client-resiliencehub/v/3.927.0).
+[`@aws-sdk/client-resiliencehub`](https://www.npmjs.com/package/@aws-sdk/client-resiliencehub/v/3.928.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.927.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.928.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-wr5x/qPB6mWu5poID83j6igZQcFkUFq7exTLE0AWa7YDPw8NLiwj6P2nQ30ZbJYl
+sha384-/Zsc1wd+2L9zD4oORVduUGsbvFq91bE9VRFRZx7K9PbF0Ea84LlWNPYRpbX04Z8M
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-resiliencehub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.927.0/index.min.mjs"
+            "@aws-sdk/client-resiliencehub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.928.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.927.0/index.min.mjs": "sha384-wr5x/qPB6mWu5poID83j6igZQcFkUFq7exTLE0AWa7YDPw8NLiwj6P2nQ30ZbJYl"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.928.0/index.min.mjs": "sha384-/Zsc1wd+2L9zD4oORVduUGsbvFq91bE9VRFRZx7K9PbF0Ea84LlWNPYRpbX04Z8M"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-resiliencehub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.927.0/index.min.mjs"
+                        "@aws-sdk/client-resiliencehub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.928.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.927.0/index.min.mjs": "sha384-wr5x/qPB6mWu5poID83j6igZQcFkUFq7exTLE0AWa7YDPw8NLiwj6P2nQ30ZbJYl"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.928.0/index.min.mjs": "sha384-/Zsc1wd+2L9zD4oORVduUGsbvFq91bE9VRFRZx7K9PbF0Ea84LlWNPYRpbX04Z8M"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.927.0`)
+* Always pin to a specific version (`@3.928.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-resiliencehub/blob/refs/tags/3.927.0/LICENSE
+https://github.com/cloud-sdk-builds/client-resiliencehub/blob/refs/tags/3.928.0/LICENSE
 ```
 
 ---
