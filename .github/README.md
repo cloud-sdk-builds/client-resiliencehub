@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-resiliencehub`](https://www.npmjs.com/package/@aws-sdk/client-resiliencehub/v/3.1124.0).
+[`@aws-sdk/client-resiliencehub`](https://www.npmjs.com/package/@aws-sdk/client-resiliencehub/v/3.1125.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-resiliencehub - [https://cloud-sdk-builds.github.io/?sdk=client-resiliencehub](https://cloud-sdk-builds.github.io/?sdk=client-resiliencehub)
-- @aws-sdk/client-resiliencehub v3.1124.0 - [https://cloud-sdk-builds.github.io/?sdk=client-resiliencehub&version=3.1124.0](https://cloud-sdk-builds.github.io/?sdk=client-resiliencehub&version=3.1124.0)
+- @aws-sdk/client-resiliencehub v3.1125.0 - [https://cloud-sdk-builds.github.io/?sdk=client-resiliencehub&version=3.1125.0](https://cloud-sdk-builds.github.io/?sdk=client-resiliencehub&version=3.1125.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1124.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1125.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-LDU5GlgfBhxi4p3vC1NK3KRPm+YIjIXwfKNImj+6ccLAOQpe5MyzlrluC6HTsz/7
+sha384-gPnWTyDwbGahTb8U3yU3DY04rJuTGOA4TkoUBirejq6nCDPWkOhmdp7r1D6b42yI
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-resiliencehub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1124.0/index.min.mjs"
+            "@aws-sdk/client-resiliencehub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1125.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1124.0/index.min.mjs": "sha384-LDU5GlgfBhxi4p3vC1NK3KRPm+YIjIXwfKNImj+6ccLAOQpe5MyzlrluC6HTsz/7"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1125.0/index.min.mjs": "sha384-gPnWTyDwbGahTb8U3yU3DY04rJuTGOA4TkoUBirejq6nCDPWkOhmdp7r1D6b42yI"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-resiliencehub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1124.0/index.min.mjs"
+                        "@aws-sdk/client-resiliencehub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1125.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1124.0/index.min.mjs": "sha384-LDU5GlgfBhxi4p3vC1NK3KRPm+YIjIXwfKNImj+6ccLAOQpe5MyzlrluC6HTsz/7"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-resiliencehub@3.1125.0/index.min.mjs": "sha384-gPnWTyDwbGahTb8U3yU3DY04rJuTGOA4TkoUBirejq6nCDPWkOhmdp7r1D6b42yI"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1124.0`)
+* Always pin to a specific version (`@3.1125.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-resiliencehub/blob/refs/tags/3.1124.0/LICENSE
+https://github.com/cloud-sdk-builds/client-resiliencehub/blob/refs/tags/3.1125.0/LICENSE
 ```
 
 ---
